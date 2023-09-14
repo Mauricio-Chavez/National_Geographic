@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./img/logo-icon-32x32.png">
     <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
     <title>National Geographic</title>
 </head>
@@ -16,25 +17,25 @@
             <img class="logo" src="./img/ng-logo-2fl.avif" alt="">
             <img class="border" src="./img/ng-border.png" alt="">
         </div>
-        <div>
+        <div >
             <a class="link-login"href="#">Login</a>
             <a class="link-search"href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-            <a class="link-news"href="#">Newsletter</a>
+            <a class="link-news"href="#">Newsletters</a>
             <a class="link-subs"href="#">Subscribe</a>
             <a class="link-menu"href="#">Menu</a>
             <a class="link-angle"href="#"><i class="fa-solid fa-angles-down"></i></a>
         </div>
     </nav>
-    <header>
-        <h1>Lates Stories</h1>
-        <p><span>Subscribe</span> for full access to read stories from National Geographic.</p>
-        <div></div>
+    <header class="site-init">
+        <h1 class="title">Latest Stories</h1>
+        <p class="header-text"><span class="underline">Subscribe</span> for full access to read stories from National Geographic.</p>
+        <div class="border-line"></div>
     </header>
-    <main>
-        <div class="news-container">
+    <main class="container">
+        <div class="news-container ">
             <div class="main-news">
                 <div class="main-news-img">
-                    <!--img-->
+                    <img src="./img/bird.avif" alt="">
                 </div>
                 <div class="main-news-text">
                     <h3>Animals</h3>
@@ -42,38 +43,96 @@
                     <a href="#"><i class="fa-solid fa-bars"></i>Read</a>
                 </div>
             </div> <!--end main-news-->
-            <div class="secondary-news">
-                <div class="secondary-news-img">
-                    <!--img hair-->
+            <div class="container-secondary-news">
+
+                <div class="secondary-news">
+                    <div class="secondary-news-img">
+                        <img src="./img/hair.png" alt="hair-image">
+                    </div>
+                    <div class="secondary-news-text">
+                        <h3>Science</h3>
+                        <p>What does your hair actually need?</p>
+                        <a href="#"><i class="fa-solid fa-bars"></i>Read</a>
+                    </div>
                 </div>
-                <div class="secondary-news-text">
-                    <h3>Science</h3>
-                    <p>What does your hair actually need?</p>
-                    <a href="#"><i class="fa-solid fa-bars"></i>Read</a>
-                </div>
-            </div>
-            <div class="secondary-news">
-                <div class="secondary-news-img">
-                    <!--img souvenir-->
-                </div>
-                <div class="secondary-news-text">
-                    <h3>Travel</h3>
-                    <p>How to spot a fake souvenir</p>
-                    <a href="#"><i class="fa-solid fa-bars"></i>Read</a>
+                <div class="secondary-news">
+                    <div class="secondary-news-img2">
+                        <img src="./img/souvenir.png" alt="">
+                    </div>
+                    <div class="secondary-news-text">
+                        <h3>Travel</h3>
+                        <p>How to spot a fake souvenir</p>
+                        <a href="#"><i class="fa-solid fa-bars"></i>Read</a>
+                    </div>
                 </div>
             </div>
         </div> <!--end news-container-->
-        <section>
-            <h2>Today's Picks</h2>
-            <div>
-                <div>
 
+        <section class="todays-picks">
+            <h2 class="title-picks">Today's Picks</h2>
+            
+                <div class="container-pick"> <!--pick-->
+                    <div class="container-img">
+                        <img src="./img/tp1.png" alt="">
+                    </div>
+                    <div class="container-pick-text">
+                        <h3><i class="fa-solid fa-lock"></i>Science</h3>
+                        <p>Why don't more people go vegan? It could be the label.</p>
+                    </div>
+                </div> <!--cierre pick-->
+
+                <div class="container-pick"> <!--pick-->
+                    <div class="container-img">
+                        <img src="./img/tp2.avif" alt="">
+                    </div>
+                    <div class="container-pick-text">
+                        <h3>Science</h3>
+                        <p>Will the supermoon affect flooding during Hurricane Idalia?</p>
+                    </div>
+                </div> <!--cierre pick-->
+
+                <div class="container-pick"> <!--pick-->
+                    <div class="container-img">
+                        <img src="./img/tp3.avif" alt="">
+                    </div>
+                    <div class="container-pick-text">
+                        <h3><i class="fa-solid fa-lock"></i>History & Culture</h3>
+                        <p>Is this 3,000-year-old brick a genetic'time capsule'?</p>
+                    </div>
+                </div> <!--cierre pick-->
+
+                <div class="container-pick"> <!--pick-->
+                    <div class="container-img">
+                        <img src="./img/tp4.png" alt="">
+                    </div>
+                    <div class="container-pick-text">
+                        <h3>Travel</h3>
+                        <p>How Swiss yodeling is changing for the modern era</p>
+                    </div>
+                </div> <!--cierre pick-->
+
+                <div class="container-pick"> <!--pick-->
+                    <div class="container-img">
+                        <img src="./img/tp5.avif" alt="">
+                    </div>
+                    <div class="container-pick-text">
+                        <h3><i class="fa-solid fa-lock"></i>History & Culture</h3>
+                        <p>Your daily life is probably shaped by these 12 people</p>
+                    </div>
+                </div> <!--cierre pick-->
+
+                <div class="container-pick"> <!--pick-->
+                    <div class="container-img">
+                        <img src="./img/tp6.avif" alt="">
+                    </div>
+                    <div class="container-pick-text">
+                        <h3></i>Travel</h3>
+                        <p>How Ladakh's ecolodges help sustain a way of life</p>
+                    </div>
+                </div> <!--cierre pick-->
+                <div class="more-container">
+                    <span class="more-underline"><a href="#">see more</a></span>
                 </div>
-                <div>
-                    <h3><i class="fa-solid fa-lock"></i>Science</h3>
-                    <p>Why don't more people go vegan? It could be the label.</p>
-                </div>
-            </div>
         </section>
     </main>
 </body>
